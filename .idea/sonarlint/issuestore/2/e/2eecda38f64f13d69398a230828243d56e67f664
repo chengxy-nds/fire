@@ -1,0 +1,14 @@
+
+@	php:S1068"+Remove this unused "$base64" private field.(¶ô†
+c	php:S1142I"OReduce the number of returns of this function 8, down to the maximum allowed 3.(‰Ú«[
+j	php:S1142­"OReduce the number of returns of this function 8, down to the maximum allowed 3.(„ñÀüÿÿÿÿ
+o	php:S3776­"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(„ñÀüÿÿÿÿ
+k	php:S1192""QDefine a constant instead of duplicating this literal "ERROR_CREATE_DIR" 4 times.(¥¸µ¯øÿÿÿÿ
+n	php:S1192&"TDefine a constant instead of duplicating this literal "ERROR_WRITE_CONTENT" 3 times.(ˆê¨Éúÿÿÿÿ
+^	php:S1192S"IDefine a constant instead of duplicating this literal "tmp_name" 3 times.(†ˆü
+g	php:S1192 "RDefine a constant instead of duplicating this literal "ERROR_SIZE_EXCEED" 4 times.(ß½¨Â
+q	php:S1192!"WDefine a constant instead of duplicating this literal "ERROR_TYPE_NOT_ALLOWED" 4 times.(å¼Ãşÿÿÿÿ
+r	php:S1192#"XDefine a constant instead of duplicating this literal "ERROR_DIR_NOT_WRITEABLE" 4 times.(Öò¼àøÿÿÿÿ
+b	php:S1117K"HRename "$file" which has the same name as the field declared at line 13.(˜»×ùÿÿÿÿ
+g	php:S1117Ó"LRename "$fileType" which has the same name as the field declared at line 21.(³Ëˆçøÿÿÿÿ
+a	php:S1117¬"KRename "$oriName" which has the same name as the field declared at line 16.(ĞÖ–º

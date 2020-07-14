@@ -1,0 +1,15 @@
+
+HWeb:BoldAndItalicTagsCheck
+"Replace this <i> tag by <em>.(¡ğàÛùÿÿÿÿ
+CWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(¨é¤ƒ
+HWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(ß‰ĞÕıÿÿÿÿ
+BWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(í«
+HWeb:BoldAndItalicTagsCheck""Replace this <i> tag by <em>.(¢õËÍúÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck%"Replace this <i> tag by <em>.(›Šÿÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck("Replace this <i> tag by <em>.(ƒ™±öùÿÿÿÿ
+CWeb:BoldAndItalicTagsCheck+"Replace this <i> tag by <em>.(£œºŞ
+HWeb:BoldAndItalicTagsCheck."Replace this <i> tag by <em>.(‚ÖÜÂúÿÿÿÿ
+CWeb:BoldAndItalicTagsCheck2"Replace this <i> tag by <em>.(ñ¨†€
+CWeb:BoldAndItalicTagsCheck@"Replace this <i> tag by <em>.(“ÿ¢­
+B	Web:S1827R"-Remove this deprecated "scrolling" attribute.(Ï·ÆØ
+SWeb:FrameWithoutTitleCheckR"-Add a "title" attribute to this <iframe> tag.(Ï·ÆØ

@@ -1,0 +1,92 @@
+
+ljavascript:S3403òH"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(’ü¯İùÿÿÿÿ
+njavascript:S2589Î"LRefactor this code so that this expression does not always evaluate to true.(—¹ùÿÿÿÿ
+njavascript:S2589òH"LRefactor this code so that this expression does not always evaluate to true.(’ü¯İùÿÿÿÿ
+ijavascript:S2589èI"LRefactor this code so that this expression does not always evaluate to true.(Ÿ¿Ã½
+Vjavascript:S3516“"9Refactor this method to not always return the same value.(¹Èü
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.(Ÿ©Ë©øÿÿÿÿ
+cjavascript:S2137ô"ADo not use "undefined" to declare a parameter - use another name.(Ÿ©Ë©øÿÿÿÿ
+zjavascript:S1117ô"X"undefined" hides or potentially hides a variable declared in an outer scope at line 14.(Ÿ©Ë©øÿÿÿÿ
+ojavascript:S1117ù"R"j" hides or potentially hides a variable declared in an outer scope at line 4083.(ïÑ®Â
+xjavascript:S1117ö5"V"value" hides or potentially hides a variable declared in an outer scope at line 6901.(Î‰Ç§ıÿÿÿÿ
+tjavascript:S1117ˆ"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ØÙšèşÿÿÿÿ
+tjavascript:S1117â"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Œ«Øÿúÿÿÿÿ
+rjavascript:S1117´#"U"name" hides or potentially hides a variable declared in an outer scope at line 4515.(–Øîõ
+sjavascript:S1117§!"V"value" hides or potentially hides a variable declared in an outer scope at line 4218.(ÿÜÛİ
+rjavascript:S1117‚"U"node" hides or potentially hides a variable declared in an outer scope at line 1448.(µñÈ§
+tjavascript:S1117’"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ÈÖ§ıÿÿÿÿ
+rjavascript:S1117§#"U"name" hides or potentially hides a variable declared in an outer scope at line 4515.(–Øîõ
+tjavascript:S1117¢	"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ñã·®üÿÿÿÿ
+xjavascript:S1117ú/"V"value" hides or potentially hides a variable declared in an outer scope at line 6137.(Şâ¼ÿÿÿÿÿ
+tjavascript:S1117á"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ÈÖ§ıÿÿÿÿ
+rjavascript:S1117ûK"U"type" hides or potentially hides a variable declared in an outer scope at line 9716.(×¾ü
+yjavascript:S1117ÖK"W"method" hides or potentially hides a variable declared in an outer scope at line 9682.(Æ¸áÌûÿÿÿÿ
+ujavascript:S1117|"Y"rootjQuery" hides or potentially hides a variable declared in an outer scope at line 26.(ŒÜ€£
+xjavascript:S1117÷"V"isXML" hides or potentially hides a variable declared in an outer scope at line 1019.(åÍÏ•ùÿÿÿÿ
+wjavascript:S1117ô"U"window" hides or potentially hides a variable declared in an outer scope at line 14.(Ÿ©Ë©øÿÿÿÿ
+{javascript:S1117ë"Y"rquickExpr" hides or potentially hides a variable declared in an outer scope at line 78.(õ¢øµıÿÿÿÿ
+njavascript:S1117"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Ú§×
+wjavascript:S1117ö5"U"name" hides or potentially hides a variable declared in an outer scope at line 6901.(Î‰Ç§ıÿÿÿÿ
+ojavascript:S1117—	"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Ş¼Ş¢
+wjavascript:S1117ã"U"value" hides or potentially hides a variable declared in an outer scope at line 838.(›Í·Ûúÿÿÿÿ
+sjavascript:S1117…"V"isXML" hides or potentially hides a variable declared in an outer scope at line 1019.(è”Äõ
+qjavascript:S1117îE"V"index" hides or potentially hides a variable declared in an outer scope at line 8895.(ã¿
+vjavascript:S1117ÖK"T"val" hides or potentially hides a variable declared in an outer scope at line 9685.(Æ¸áÌûÿÿÿÿ
+tjavascript:S1117"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(•øüúÿÿÿÿ
+ujavascript:S1117ã"S"key" hides or potentially hides a variable declared in an outer scope at line 838.(›Í·Ûúÿÿÿÿ
+ojavascript:S1117¨"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Æïşº
+tjavascript:S1117Å"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ÈÖ§ıÿÿÿÿ
+tjavascript:S1117à"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ÏÆüÿÿÿÿ
+tjavascript:S1117Æ"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(İ˜¼‹ùÿÿÿÿ
+tjavascript:S1117‚"W"document" hides or potentially hides a variable declared in an outer scope at line 34.(×ªÔ
+tjavascript:S1117¾"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(İ˜¼‹ùÿÿÿÿ
+ojavascript:S1117¬B"R"_" hides or potentially hides a variable declared in an outer scope at line 8479.(ğ¡Åµ
+vjavascript:S1117Í"T"rtrim" hides or potentially hides a variable declared in an outer scope at line 73.( äŸôùÿÿÿÿ
+sjavascript:S1117‘"V"isXML" hides or potentially hides a variable declared in an outer scope at line 1019.(í³ã€
+sjavascript:S1117ûK"V"value" hides or potentially hides a variable declared in an outer scope at line 9719.(×¾ü
+yjavascript:S1117à."W"document" hides or potentially hides a variable declared in an outer scope at line 34.(öÉÁ…ÿÿÿÿÿ
+ujavascript:S1117“"X"matches" hides or potentially hides a variable declared in an outer scope at line 1031.(·¨Éº
+ojavascript:S1117¢"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Æïşº
+ojavascript:S1117®"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(­¢¤ê
+ojavascript:S1117Ğ"R"i" hides or potentially hides a variable declared in an outer scope at line 3269.(Ë½ĞÌ
+tjavascript:S1117î"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ÈÖ§ıÿÿÿÿ
+wjavascript:S1117¤."U"elem" hides or potentially hides a variable declared in an outer scope at line 5916.(ù˜¤ƒÿÿÿÿÿ
+ojavascript:S1117‰"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(¦îÎ‹
+tjavascript:S1117ÏE"W"length" hides or potentially hides a variable declared in an outer scope at line 8896.(¥ø‹‘
+ojavascript:S1117Å"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Ş¼Ş¢
+ojavascript:S1117•"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(Æïşº
+vjavascript:S1117Ä
+"T"arr" hides or potentially hides a variable declared in an outer scope at line 1057.(¢ÄùØúÿÿÿÿ
+tjavascript:S1117ù"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(óÕ„–ùÿÿÿÿ
+ojavascript:S1117  "R"j" hides or potentially hides a variable declared in an outer scope at line 4122.(ïÑ®Â
+xjavascript:S1117—/"V"value" hides or potentially hides a variable declared in an outer scope at line 6038.(Şâ¼ÿÿÿÿÿ
+tjavascript:S1117–"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ıÉÊ–ÿÿÿÿÿ
+qjavascript:S1117¼:"T"val" hides or potentially hides a variable declared in an outer scope at line 7479.(Æ›¹È
+zjavascript:S1117ö"X"matches" hides or potentially hides a variable declared in an outer scope at line 1031.(å„ •ûÿÿÿÿ
+tjavascript:S1117¶"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ŞŒÖùÿÿÿÿ
+tjavascript:S1117ú"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(ãÌ²ÿüÿÿÿÿ
+sjavascript:S1117ÓJ"V"docElem" hides or potentially hides a variable declared in an outer scope at line 35.(÷ËûÌ
+tjavascript:S1117Å
+"R"i" hides or potentially hides a variable declared in an outer scope at line 1014.(»š”Øüÿÿÿÿ
+tjavascript:S1117ñE"W"length" hides or potentially hides a variable declared in an outer scope at line 8896.(Ñ™éŒ
+xjavascript:S1117ƒ"V"docElem" hides or potentially hides a variable declared in an outer scope at line 35.(ƒ‹áŞùÿÿÿÿ
+qjavascript:S1117ã"T"data" hides or potentially hides a variable declared in an outer scope at line 606.(º—ê±
+rjavascript:S1117ĞG"U"prop" hides or potentially hides a variable declared in an outer scope at line 9065.(ß¾¬Ó
+zjavascript:S1117†"X"matches" hides or potentially hides a variable declared in an outer scope at line 1031.(Ã¤ĞÀùÿÿÿÿ
+rjavascript:S1117ÎE"V"index" hides or potentially hides a variable declared in an outer scope at line 8895.(›ãöq
+Kjavascript:EmptyBlockö")Either remove or fill this block of code.(Ô‰íÌ
+Jjavascript:EmptyBlock™	")Either remove or fill this block of code.(ô÷‹`
+Qjavascript:S1656’."/Remove or correct this useless self-assignment.(…ÍÏğıÿÿÿÿ
+Yjavascript:S1854ı"7Remove this useless assignment to local variable "name"(ÅàÉ¿ıÿÿÿÿ
+Xjavascript:S1854ä"<Remove this useless assignment to local variable "container"(ÇÎH
+Rjavascript:S1854ä"6Remove this useless assignment to local variable "tds"(ÇÎH
+Xjavascript:S1854ä"<Remove this useless assignment to local variable "marginDiv"(ÇÎH
+Sjavascript:S1854¡-"6Remove this useless assignment to local variable "cur"(¹ÙŞŒ
+Xjavascript:S18541";Remove this useless assignment to local variable "fragment"(•²ßÖ
+Ujavascript:S18541"8Remove this useless assignment to local variable "first"(•²ßÖ
+[javascript:S1854ƒ3"?Remove this useless assignment to local variable "destElements"(ö’Ğy
+Zjavascript:S1854ƒ3">Remove this useless assignment to local variable "srcElements"(ö’Ğy
+Sjavascript:S1854ƒ3"7Remove this useless assignment to local variable "node"(ö’Ğy
+Sjavascript:S1854ƒ4"6Remove this useless assignment to local variable "tmp"(ú«”è
+Njavascript:S1264¿",Replace this "for" loop with a "while" loop.(ÒöÁşøÿÿÿÿ
+Ijavascript:S1264Ç",Replace this "for" loop with a "while" loop.(ï¾Ü

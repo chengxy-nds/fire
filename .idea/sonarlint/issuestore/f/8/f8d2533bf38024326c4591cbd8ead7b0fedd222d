@@ -1,0 +1,34 @@
+
+vjavascript:S1117"U"factory" hides or potentially hides a variable declared in an outer scope at line 9.(¨êÎşÿÿÿÿ
+vjavascript:S1117…"T"name" hides or potentially hides a variable declared in an outer scope at line 633.(Ôú¹Îıÿÿÿÿ
+pjavascript:S1117+"U"factory" hides or potentially hides a variable declared in an outer scope at line 9.(È¦«E
+zjavascript:S1117˜)"X"quality" hides or potentially hides a variable declared in an outer scope at line 4727.(®÷¼¸ıÿÿÿÿ
+ujavascript:S1117Ã"X"callback" hides or potentially hides a variable declared in an outer scope at line 569.(åõåÑ
+rjavascript:S1117»"U"args" hides or potentially hides a variable declared in an outer scope at line 1433.(’”¢ 
+yjavascript:S1117Ğ$"W"require" hides or potentially hides a variable declared in an outer scope at line 124.(àöÄïüÿÿÿÿ
+ujavascript:S1117â"X"callback" hides or potentially hides a variable declared in an outer scope at line 603.(åõåÑ
+vjavascript:S1117ç"T"val" hides or potentially hides a variable declared in an outer scope at line 3164.(ƒ³ÆÑúÿÿÿÿ
+qjavascript:S1117Ã"T"name" hides or potentially hides a variable declared in an outer scope at line 569.(åõåÑ
+ujavascript:S1117‰*"X"quality" hides or potentially hides a variable declared in an outer scope at line 4727.(ÏÿÅ€
+qjavascript:S1117â"T"name" hides or potentially hides a variable declared in an outer scope at line 603.(åõåÑ
+|javascript:S1117è'"Z"fDCTQuant" hides or potentially hides a variable declared in an outer scope at line 4975.(ó±’Éûÿÿÿÿ
+tjavascript:S1117…"R"cb" hides or potentially hides a variable declared in an outer scope at line 633.(Ôú¹Îıÿÿÿÿ
+9javascript:S1116ô("Remove this empty statement.(ìèİ”
+>javascript:S1116¯*"Remove this empty statement.(ôŸìúÿÿÿÿ
+>javascript:S878Û""Remove use of this comma operator.(ÿ®Ì¤
+Kjavascript:EmptyBlockô(")Either remove or fill this block of code.(ìèİ”
+Kjavascript:EmptyBlockş(")Either remove or fill this block of code.(Úõòé
+`javascript:UnusedVariableø$"5Remove the declaration of the unused 'self' variable.(‚Ì¡‘üÿÿÿÿ
+gjavascript:UnusedVariable¼)"<Remove the declaration of the unused 'tripleWidth' variable.(ÚƒØÿÿÿÿÿ
+]javascript:UnusedVariableù$"7Remove the declaration of the unused 'fround' variable.(«ğúİ
+Yjavascript:S1854¤!"<Remove this useless assignment to local variable "dirOffset"(¹Ÿÿ
+Yjavascript:S1854Ä$"<Remove this useless assignment to local variable "tmpCanvas"(‡«îœ
+Vjavascript:S1854Ä$"9Remove this useless assignment to local variable "tmpCtx"(‡«îœ
+Yjavascript:S1854ø$"7Remove this useless assignment to local variable "self"(‚Ì¡‘üÿÿÿÿ
+Vjavascript:S1854ù$"9Remove this useless assignment to local variable "fround"(«ğúİ
+Vjavascript:S1854Ø)"4Remove this useless assignment to local variable "p"(Ş›‘‘øÿÿÿÿ
+Xjavascript:S1854Ç)"6Remove this useless assignment to local variable "row"(î§‡şÿÿÿÿ
+Xjavascript:S1854Æ)"6Remove this useless assignment to local variable "col"(êˆ³Ûùÿÿÿÿ
+Qjavascript:S1854Å)"4Remove this useless assignment to local variable "p"(ßÕ
+`javascript:S1854¼)">Remove this useless assignment to local variable "tripleWidth"(ÚƒØÿÿÿÿÿ
+Sjavascript:S1854Ë+"6Remove this useless assignment to local variable "xhr"(Â¢·×

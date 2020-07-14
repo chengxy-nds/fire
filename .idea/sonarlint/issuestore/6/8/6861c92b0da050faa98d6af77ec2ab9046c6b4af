@@ -1,0 +1,140 @@
+
+fjavascript:S2259å"DTypeError can be thrown as "target" might be null or undefined here.(ü¿’¢üÿÿÿÿ
+njavascript:S2589°"LRefactor this code so that this expression does not always evaluate to true.(ô¿Ìœüÿÿÿÿ
+javascript:S2692‰"bThis check ignores index 0; consider using 'includes' method to make this check safe and explicit.(•éİƒ
+['javascript:FunctionDefinitionInsideLoopÌ"'Define this function outside of a loop.(Ä¦òÀ
+`'javascript:FunctionDefinitionInsideLoopè"'Define this function outside of a loop.(¡†Çäıÿÿÿÿ
+`'javascript:FunctionDefinitionInsideLoopê"'Define this function outside of a loop.(åù±Ãüÿÿÿÿ
+fjavascript:S2814"DRename "r" as this name is already used in declaration at line 1640.(¿¢Áéúÿÿÿÿ
+kjavascript:S2814„"IRename "styles" as this name is already used in declaration at line 1000.(¹ĞıÜûÿÿÿÿ
+djavascript:S2814õ"GRename "name" as this name is already used in declaration at line 1002.(™¬­Ğ
+djavascript:S2814û"GRename "name" as this name is already used in declaration at line 1002.(™¬­Ğ
+djavascript:S2814ˆ"GRename "name" as this name is already used in declaration at line 1002.(²æ¶â
+ajavascript:S2814¥"ERename "p1" as this name is already used in declaration at line 1562.(˜³Š
+fjavascript:S2814ë"IRename "marker" as this name is already used in declaration at line 1127.(õ¼éä
+kjavascript:S2814ñ"IRename "marker" as this name is already used in declaration at line 1127.(ÓÑüàøÿÿÿÿ
+jjavascript:S2814¦"HRename "cntrl" as this name is already used in declaration at line 1563.(ÊÏ”Úûÿÿÿÿ
+jjavascript:S2814°"HRename "cntrl" as this name is already used in declaration at line 1563.(ÊÏ”Úûÿÿÿÿ
+jjavascript:S2814º"HRename "cntrl" as this name is already used in declaration at line 1563.(»ø®üÿÿÿÿ
+djavascript:S2814"GRename "newP" as this name is already used in declaration at line 1543.(ÖƒĞà
+ijavascript:S2814¤"GRename "curr" as this name is already used in declaration at line 1561.(©”ĞÇşÿÿÿÿ
+ijavascript:S2814¯"GRename "curr" as this name is already used in declaration at line 1561.(©”ĞÇşÿÿÿÿ
+ijavascript:S2814¹"GRename "curr" as this name is already used in declaration at line 1561.(©”ĞÇşÿÿÿÿ
+ijavascript:S2814Ä"GRename "curr" as this name is already used in declaration at line 1561.(©”ĞÇşÿÿÿÿ
+gjavascript:S2814§"ERename "cp" as this name is already used in declaration at line 1564.(ì‚öƒûÿÿÿÿ
+gjavascript:S2814±"ERename "cp" as this name is already used in declaration at line 1564.(ì‚öƒûÿÿÿÿ
+gjavascript:S2814¼"ERename "cp" as this name is already used in declaration at line 1564.(ì‚öƒûÿÿÿÿ
+gjavascript:S2814Ê"ERename "cp" as this name is already used in declaration at line 1564.(ì‚öƒûÿÿÿÿ
+ejavascript:S2814â"CRename "i" as this name is already used in declaration at line 988.(¶µğ ıÿÿÿÿ
+`javascript:S2814…"CRename "i" as this name is already used in declaration at line 988.(êƒ»š
+bjavascript:S2814ª"ERename "fs" as this name is already used in declaration at line 1055.(Ó‚š‰
+`javascript:S2814‡"CRename "i" as this name is already used in declaration at line 250.(÷Ú”«
+fjavascript:S2814Ç"DRename "i" as this name is already used in declaration at line 2627.(š‹çşÿÿÿÿ
+ajavascript:S2814ö"DRename "p" as this name is already used in declaration at line 1520.(ñŞë²
+ajavascript:S2814ÿ"DRename "p" as this name is already used in declaration at line 1520.(ñŞë²
+njavascript:S1117»"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(À©Üî
+sjavascript:S1117Ğ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Ã–·ôùÿÿÿÿ
+sjavascript:S1117ô"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(Ô–ğ
+sjavascript:S1117¥"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(úá…úüÿÿÿÿ
+tjavascript:S1117è"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(œ¦Üë
+xjavascript:S1117Ü"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(µ”ü¸ÿÿÿÿÿ
+vjavascript:S1117ü"T"name" hides or potentially hides a variable declared in an outer scope at line 457.(ÓÙ¦ıÿÿÿÿ
+njavascript:S1117Î"Q"i" hides or potentially hides a variable declared in an outer scope at line 988.(ªëñê
+njavascript:S1117Á"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ªëñê
+sjavascript:S1117õ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¾ã¯ùşÿÿÿÿ
+ojavascript:S1117æ"R"v" hides or potentially hides a variable declared in an outer scope at line 1647.(©œÖó
+sjavascript:S1117•"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Í¡œôÿÿÿÿÿ
+njavascript:S1117Ì"Q"t" hides or potentially hides a variable declared in an outer scope at line 729.(Ä¦òÀ
+rjavascript:S1117Š"U"name" hides or potentially hides a variable declared in an outer scope at line 1002.(šÃŠŒ
+rjavascript:S1117É"U"mask" hides or potentially hides a variable declared in an outer scope at line 2618.(÷ñ©õ
+xjavascript:S1117Å"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(„œ‰Àşÿÿÿÿ
+sjavascript:S1117"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(òî³³
+sjavascript:S1117à"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(Â„³P
+njavascript:S1117÷"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ªëñê
+ojavascript:S1117Ì"R"i" hides or potentially hides a variable declared in an outer scope at line 2102.(ªëñê
+mjavascript:S1117"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ïšã}
+xjavascript:S1117›	"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(ÕÑıœøÿÿÿÿ
+sjavascript:S1117É
+"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ãÉÕ‹ıÿÿÿÿ
+yjavascript:S1117Í"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(•©Ëÿÿÿÿÿ
+sjavascript:S1117ó"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ıƒôÀûÿÿÿÿ
+wjavascript:S1117Á"U"mask" hides or potentially hides a variable declared in an outer scope at line 2618.(‰£ü‹şÿÿÿÿ
+wjavascript:S1117Í"U"mask" hides or potentially hides a variable declared in an outer scope at line 2618.(•©Ëÿÿÿÿÿ
+njavascript:S1117¶"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(Å¼ƒÕ
+njavascript:S1117®"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ÅƒÃ¬
+njavascript:S1117î"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ªëñê
+njavascript:S1117›"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(ÛÁ˜¢
+tjavascript:S1117Õ	"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(»Å‰Ş
+ojavascript:S1117µ"R"e" hides or potentially hides a variable declared in an outer scope at line 2751.(›À™á
+sjavascript:S1117ƒ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¬’¶Üùÿÿÿÿ
+njavascript:S1117Ó"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Î„˜­
+njavascript:S1117ø"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Ö–èã
+xjavascript:S1117Ô	"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(„œ‰Àşÿÿÿÿ
+vjavascript:S1117¾"T"bits" hides or potentially hides a variable declared in an outer scope at line 215.(·ıªùÿÿÿÿ
+njavascript:S1117"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(­Íõ±
+rjavascript:S1117à"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(Â„³P
+wjavascript:S1117¶"U"mask" hides or potentially hides a variable declared in an outer scope at line 2618.(Â»·×şÿÿÿÿ
+njavascript:S1117Ô"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Í›£’
+mjavascript:S1117¶"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¼à¹
+sjavascript:S1117»"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Í¡œôÿÿÿÿÿ
+sjavascript:S1117ç"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Îáêûÿÿÿÿ
+tjavascript:S1117è"R"v" hides or potentially hides a variable declared in an outer scope at line 1647.(¡†Çäıÿÿÿÿ
+sjavascript:S1117ä"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(Æòœò
+sjavascript:S1117Ó"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ñ¸ğˆÿÿÿÿÿ
+njavascript:S1117Ò
+"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ìß”©
+njavascript:S1117ş"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(Ÿ÷Ø‹
+tjavascript:S1117‹"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(»Å‰Ş
+vjavascript:S1117É"T"bits" hides or potentially hides a variable declared in an outer scope at line 215.(·ıªùÿÿÿÿ
+{javascript:S1117Ó"Y"childNode" hides or potentially hides a variable declared in an outer scope at line 989.(äÆİ®şÿÿÿÿ
+njavascript:S1117ğ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ªëñê
+njavascript:S1117¢"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ªëñê
+ojavascript:S1117€"R"i" hides or potentially hides a variable declared in an outer scope at line 1776.(ìªÑö
+sjavascript:S1117½"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(Ö°ˆ—ıÿÿÿÿ
+xjavascript:S1117¦"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(„œ‰Àşÿÿÿÿ
+tjavascript:S1117Æ"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(»Å‰Ş
+mjavascript:S1117ñ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¼à¹
+tjavascript:S1117ô"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(Ô–ğ
+ojavascript:S1117¨"R"e" hides or potentially hides a variable declared in an outer scope at line 2751.(ÄêœÚ
+mjavascript:S1117Ü"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¼à¹
+sjavascript:S1117â"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(¶µğ ıÿÿÿÿ
+njavascript:S1117…"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(êƒ»š
+yjavascript:S1117Ü"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(µ”ü¸ÿÿÿÿÿ
+tjavascript:S1117è"R"u" hides or potentially hides a variable declared in an outer scope at line 1646.(¡†Çäıÿÿÿÿ
+sjavascript:S1117¯"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(îâŞæüÿÿÿÿ
+rjavascript:S1117ë"U"mask" hides or potentially hides a variable declared in an outer scope at line 2618.(—ÃÄ£
+njavascript:S1117¾"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ÅƒÃ¬
+njavascript:S1117µ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ÅƒÃ¬
+tjavascript:S1117ê"R"u" hides or potentially hides a variable declared in an outer scope at line 1646.(åù±Ãüÿÿÿÿ
+tjavascript:S1117ä"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(Æòœò
+njavascript:S1117ú"Q"i" hides or potentially hides a variable declared in an outer scope at line 212.(Í›£’
+njavascript:S1117‡"Q"i" hides or potentially hides a variable declared in an outer scope at line 212.(÷Ú”«
+njavascript:S1117Ã"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(Î„˜­
+sjavascript:S1117Ç"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(š‹çşÿÿÿÿ
+njavascript:S1117Ç"Q"i" hides or potentially hides a variable declared in an outer scope at line 851.(€¤ ×
+njavascript:S1117Ø"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ş£ñÊ
+xjavascript:S1117Ê"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(±…Âƒúÿÿÿÿ
+xjavascript:S1117Í"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(•©Ëÿÿÿÿÿ
+sjavascript:S1117‰"Q"s" hides or potentially hides a variable declared in an outer scope at line 853.(Õ±™üÿÿÿÿ
+njavascript:S1117Ÿ"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ìù‚Ğ
+tjavascript:S1117§"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(»Å‰Ş
+vjavascript:S1117³"T"bits" hides or potentially hides a variable declared in an outer scope at line 215.(·ıªùÿÿÿÿ
+sjavascript:S1117è"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(œ¦Üë
+njavascript:S1117Í"Q"i" hides or potentially hides a variable declared in an outer scope at line 851.(€¤ ×
+sjavascript:S1117³"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(‚Ë±©úÿÿÿÿ
+ojavascript:S1117ı
+"R"d" hides or potentially hides a variable declared in an outer scope at line 1393.(ù³‚‰
+njavascript:S1117”"Q"a" hides or potentially hides a variable declared in an outer scope at line 778.(ï­
+tjavascript:S1117œ	"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(ıŠ…ƒ
+tjavascript:S1117¹"R"e" hides or potentially hides a variable declared in an outer scope at line 2751.(šïûÅúÿÿÿÿ
+rjavascript:S1117”"U"name" hides or potentially hides a variable declared in an outer scope at line 1002.(™¹ÅÄ
+tjavascript:S1117"W"height" hides or potentially hides a variable declared in an outer scope at line 2392.(òî³³
+sjavascript:S1117ì"Q"i" hides or potentially hides a variable declared in an outer scope at line 715.(ÒôÎ³üÿÿÿÿ
+xjavascript:S1117Š"V"width" hides or potentially hides a variable declared in an outer scope at line 2391.(„œ‰Àşÿÿÿÿ
+tjavascript:S1117ê"R"v" hides or potentially hides a variable declared in an outer scope at line 1647.(åù±Ãüÿÿÿÿ
+{javascript:S2703Ù"^Add the "let", "const" or "var" keyword to this declaration of "channels" to make it explicit.(¤Ø«å
+yjavascript:S2703Ø"\Add the "let", "const" or "var" keyword to this declaration of "height" to make it explicit.(–Ü
+tjavascript:S2703Ë"WAdd the "let", "const" or "var" keyword to this declaration of "i" to make it explicit.(¬ëè
+vjavascript:S2703í"YAdd the "let", "const" or "var" keyword to this declaration of "tmp" to make it explicit.(©ÿÕş
+wjavascript:S2703º"ZAdd the "let", "const" or "var" keyword to this declaration of "mask" to make it explicit.(Í…Öú
+}javascript:S2703×"[Add the "let", "const" or "var" keyword to this declaration of "width" to make it explicit.(²òüªúÿÿÿÿ

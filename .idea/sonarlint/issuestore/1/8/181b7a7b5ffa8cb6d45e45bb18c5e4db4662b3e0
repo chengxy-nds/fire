@@ -1,0 +1,134 @@
+
+Vjavascript:S4043¹"9Move this array "sort" operation to a separate statement.(ÉÃøë
+bjavascript:S2137"ADo not use "undefined" to declare a parameter - use another name.(»®Í¯ýÿÿÿÿ
+fjavascript:S2814Å"IRename "element" as this name is already used in declaration at line 952.(æå–è
+djavascript:S2814¬"GRename "code" as this name is already used in declaration at line 2076.(û¡˜Ú
+ijavascript:S2814Â"GRename "html" as this name is already used in declaration at line 2107.(öì½…øÿÿÿÿ
+ajavascript:S2814×"DRename "i" as this name is already used in declaration at line 1604.(˜ØšÑ
+sjavascript:S1117›"Q"i" hides or potentially hides a variable declared in an outer scope at line 291.(µçëºûÿÿÿÿ
+tjavascript:S1117—"R"e" hides or potentially hides a variable declared in an outer scope at line 1774.(»÷®Ôüÿÿÿÿ
+|javascript:S1117‚"Z"regexInfo" hides or potentially hides a variable declared in an outer scope at line 1664.(¶¢á¡øÿÿÿÿ
+wjavascript:S1117Œ"Z"className" hides or potentially hides a variable declared in an outer scope at line 2219.(Ø¹þ‰
+xjavascript:S1117‚"V"match" hides or potentially hides a variable declared in an outer scope at line 1672.(¶¢á¡øÿÿÿÿ
+yjavascript:S1117û"W"result" hides or potentially hides a variable declared in an outer scope at line 2165.(—ÌªÍýÿÿÿÿ
+wjavascript:S1117–"Z"className" hides or potentially hides a variable declared in an outer scope at line 2219.(ßŽëš
+|javascript:S1117¡"Z"className" hides or potentially hides a variable declared in an outer scope at line 2219.(‹è­±ÿÿÿÿÿ
+|javascript:S1117Ä"Z"className" hides or potentially hides a variable declared in an outer scope at line 2219.(ÿ´Šãùÿÿÿÿ
+yjavascript:S1117‘"W"spaces" hides or potentially hides a variable declared in an outer scope at line 1522.(Ñ£Œõûÿÿÿÿ
+sjavascript:S1117ù"V"match" hides or potentially hides a variable declared in an outer scope at line 2179.(´è×ø
+tjavascript:S1117é"R"i" hides or potentially hides a variable declared in an outer scope at line 1859.(ŠÚßÅøÿÿÿÿ
+}javascript:S1117¡"["highlighter" hides or potentially hides a variable declared in an outer scope at line 794.(ùËêÒýÿÿÿÿ
+vjavascript:S1117’	"Z"className" hides or potentially hides a variable declared in an outer scope at line 2219.(äòò/
+>javascript:S1116¤"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Î"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116š"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¤"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116´"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116É"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ó"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ý"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ç"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116‰	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116•	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116§	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¯	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ã	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Î	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116é	"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116‹
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116”
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Á
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ñ
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ý
+"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116‘"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ã"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ô"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116å"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116‚"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116™"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116©"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116´"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Û"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ö"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116…"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116˜"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116µ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Æ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116è"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116œ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ì"Remove this empty statement.(Åñ­õþÿÿÿÿ
+>javascript:S1116ý"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ï"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116ð"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116û"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¬"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¶"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116á"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116µ"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116ü"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116†"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116­"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116·"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116Á"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Æ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ø"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116‚"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116Ÿ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116©"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¸"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Â"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116Ü"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116æ"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116™"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¸"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Â"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116â"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ì"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116†"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116Ý"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116›"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¥"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¬"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¶"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116ç"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ñ"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116—"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116¡"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¾"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116È"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116Ò"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116×"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Œ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116–"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¹"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116à"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116ë"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116‰"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116“"Remove this empty statement.(²¾¤áùÿÿÿÿ
+>javascript:S1116¾"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+{javascript:BitwiseOperators’"SReview this use of bitwise "&" operator; conditional "&&" might have been intended.(”£Œ˜
+fjavascript:S3686…"JCorrect the use of this function; on line 503 it was called without "new".(¢²™M
+Fjavascript:PrimitiveWrappersê"Use a literal value for this.(¢çƒß
+cjavascript:UnusedVariable¾"8Remove the declaration of the unused 'indents' variable.(¨´òÆúÿÿÿÿ
+ajavascript:UnusedVariableð"6Remove the declaration of the unused 'lines' variable.(ÎŠ™ûÿÿÿÿ
+djavascript:UnusedVariable¹">Remove the declaration of the unused 'bracketsRegex' variable.(•äÕ®
+Zjavascript:UnusedVariable‡"6Remove the declaration of the unused 'index' variable.(ã¿
+`javascript:UnusedVariableÀ":Remove the declaration of the unused 'padLength' variable.(ßîì™
+Zjavascript:S1854ð"8Remove this useless assignment to local variable "lines"(ÎŠ™ûÿÿÿÿ
+\javascript:S1854¾":Remove this useless assignment to local variable "indents"(¨´òÆúÿÿÿÿ
+[javascript:S1854ú">Remove this useless assignment to local variable "highlighter"(´á™„
+Yjavascript:S1854À"<Remove this useless assignment to local variable "padLength"(ßîì™
+{javascript:S2703«"_Add the "let", "const" or "var" keyword to this declaration of "className" to make it explicit.(¡ã¢
+~javascript:S2703°"\Add the "let", "const" or "var" keyword to this declaration of "gutter" to make it explicit.(Ä­ÓÓùÿÿÿÿ
+yjavascript:S2737ž"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(‚Š—£ýÿÿÿÿ
+.javascript:S1442“
+"Unexpected alert.(ÆÌŽÀ

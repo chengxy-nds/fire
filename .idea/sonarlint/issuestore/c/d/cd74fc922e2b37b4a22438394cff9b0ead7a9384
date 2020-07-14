@@ -1,0 +1,18 @@
+
+Šjavascript:S2583Ã"mChange this condition so that it does not always evaluate to "false"; some subsequent code is never executed.(ËøÞÕ
+gjavascript:S2814”"JRename "callBack" as this name is already used in declaration at line 652.(Œî·†
+cjavascript:S2814á"FRename "type" as this name is already used in declaration at line 992.(—™¯
+cjavascript:S2814Ó"FRename "type" as this name is already used in declaration at line 978.(—™¯
+fjavascript:S2814ñ"IRename "options" as this name is already used in declaration at line 879.(²‰Ž¹
+ejavascript:S2814”"IRename "options" as this name is already used in declaration at line 785.(è£ÞW
+zjavascript:S1117µ"X"callBack" hides or potentially hides a variable declared in an outer scope at line 652.(¬Œ íúÿÿÿÿ
+>javascript:S1116Ã"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Ñ"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116â"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116÷"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Š"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116à"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+>javascript:S1116Á"Remove this empty statement.(ôŸŽìúÿÿÿÿ
+hjavascript:UnusedVariableŒ	"=Remove the declaration of the unused 'callbackImpl' variable.(Å»û¬ûÿÿÿÿ
+Kjavascript:S1656Ý"/Remove or correct this useless self-assignment.(×¯©'
+^javascript:S1126Ì"AReplace this if-then-else statement by a single return statement.(¤¯ÓÅ

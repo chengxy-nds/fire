@@ -1,0 +1,19 @@
+
+ijavascript:S2814‘"GRename "index" as this name is already used in declaration at line 136.(£ÒÁúÿÿÿÿ
+ljavascript:S1117x"P"h" hides or potentially hides a variable declared in an outer scope at line 28.(­—öÉ
+ljavascript:S1117x"P"w" hides or potentially hides a variable declared in an outer scope at line 28.(­—öÉ
+=javascript:S1116{"Remove this empty statement.(ôŸìúÿÿÿÿ
+=javascript:S1116~"Remove this empty statement.(ôŸìúÿÿÿÿ
+>javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+>javascript:S1116„"Remove this empty statement.(ôŸìúÿÿÿÿ
+]javascript:UnusedVariableT"3Remove the declaration of the unused 'id' variable.(’ùÉıûÿÿÿÿ
+Yjavascript:UnusedVariable&"4Remove the declaration of the unused 'url' variable.(åÿ®
+Yjavascript:UnusedVariableS"4Remove the declaration of the unused 'url' variable.(åÿ®
+Yjavascript:UnusedVariable9"4Remove the declaration of the unused 'url' variable.(åÿ®
+Rjavascript:S1854&"6Remove this useless assignment to local variable "url"(åÿ®
+Rjavascript:S18549"6Remove this useless assignment to local variable "url"(åÿ®
+Rjavascript:S1854S"6Remove this useless assignment to local variable "url"(åÿ®
+Vjavascript:S1854T"5Remove this useless assignment to local variable "id"(’ùÉıûÿÿÿÿ
+Zjavascript:S1854‘"8Remove this useless assignment to local variable "index"(£ÒÁúÿÿÿÿ
+xjavascript:S2703"WAdd the "let", "const" or "var" keyword to this declaration of "w" to make it explicit.(âóÉÈüÿÿÿÿ
+xjavascript:S2703"WAdd the "let", "const" or "var" keyword to this declaration of "h" to make it explicit.(âóÉÈüÿÿÿÿ

@@ -1,0 +1,5 @@
+
+ejavascript:S2814…"CRename "i" as this name is already used in declaration at line 127.(« ÷ûÿÿÿÿ
+sjavascript:S1117Ê"Q"me" hides or potentially hides a variable declared in an outer scope at line 16.(§ÉÑ¥øÿÿÿÿ
+cjavascript:UnusedVariableJ"9Remove the declaration of the unused 'sortSpan' variable.(¦¸« úÿÿÿÿ
+\javascript:S1854J";Remove this useless assignment to local variable "sortSpan"(¦¸« úÿÿÿÿ
