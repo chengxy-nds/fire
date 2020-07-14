@@ -41,7 +41,7 @@ public class LoginController {
         /**
          * 重新到前端主页
          */
-        String redirectHome = "http://127.0.0.1:8080/home";
+        String redirectHome = "http://47.93.6.5/home";
 
         try {
             /**
