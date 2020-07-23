@@ -27,6 +27,11 @@ public class LoginController {
     @Autowired
     private GitHubProperties gitHubProperties;
 
+//    @RequestMapping("/gitHubLogin")
+//    public  authorize(@NotEmpty String code) {
+//
+//    }
+
     /**
      * @param code
      * @author xiaofu
