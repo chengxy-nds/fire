@@ -9,6 +9,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/fire/pom.xml" />
+        <option value="$PROJECT_DIR$/fire/fire-common/pom.xml" />
+        <option value="$PROJECT_DIR$/fire/fire-repository/pom.xml" />
       </list>
     </option>
   </component>
