@@ -1,10 +1,10 @@
-package com.fire.repository;
+package com.fire.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FireRepositoryApplicationTests {
+class FireServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
