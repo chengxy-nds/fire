@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fire/fire.iml" filepath="$PROJECT_DIR$/fire/fire.iml" />
       <module fileurl="file://$PROJECT_DIR$/fire/fire-common/fire-common.iml" filepath="$PROJECT_DIR$/fire/fire-common/fire-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fire/fire-controller/fire-controller.iml" filepath="$PROJECT_DIR$/fire/fire-controller/fire-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/fire/fire-repository/fire-repository.iml" filepath="$PROJECT_DIR$/fire/fire-repository/fire-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fire/fire-service/fire-service.iml" filepath="$PROJECT_DIR$/fire/fire-service/fire-service.iml" />
     </modules>
   </component>
 </project>

@@ -5,17 +5,19 @@
     <option name="id" value="1494555348950" />
     <option name="name" value="default" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/fire/pom.xml" />
         <option value="$PROJECT_DIR$/fire/fire-common/pom.xml" />
         <option value="$PROJECT_DIR$/fire/fire-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/fire-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/fire-service/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\51536\AppData\Roaming\Subversion</configuration>
-  </component>
 </project>
