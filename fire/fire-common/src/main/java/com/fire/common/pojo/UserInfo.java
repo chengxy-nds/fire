@@ -1,4 +1,4 @@
-package com.oauth.github.pojo;
+package com.fire.common.pojo;
 
 import lombok.Data;
 

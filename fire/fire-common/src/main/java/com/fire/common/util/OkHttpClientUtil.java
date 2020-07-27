@@ -1,4 +1,4 @@
-package com.oauth.github.util;
+package com.fire.common.util;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
