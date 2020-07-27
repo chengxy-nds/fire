@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang=en style="font-size: 37.5px">
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>人脸登录</title>
+    <script src="https://cdn.jsdelivr.net/gh/eduardolundgren/tracking.js/build/tracking-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/eduardolundgren/tracking.js/build/data/face-min.js"></script>
+    <link rel="stylesheet" href="/css/face.css">
+</head>
+
+<body class="body-bg">
+<div id="app">
+    <div v-show="showContainer" id="face-capture">
+        <video ref="refVideo" class="filmvideo" id="video" autoplay></video>
+        <!--<img src="/video-cover.png" alt="cover" class="img-cover"/>-->
+        <div class="">
+            <h2 class="title">{{scanTip}}</h2>
+            <!--<img class="close" src="/address_edit_clear.png" alt="" @click="close"/>-->
+            <canvas ref="refCanvas" class="filmvideo"></canvas>
+        </div>
+        <!--<div class="rect" v-for="item in profile"-->
+             <!--:style="{ width: item.width + 'px', height: item.height + 'px', left: item.left + 'px', top: item.top + 'px'}"></div>-->
+    </div>
+    <img v-show="!showContainer" :src="imgUrl" class="imgpre"/>
+</div>
+</body>
+<script src="/js/vue.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+const app = new Vue({
+    el: "#app",
+    data() {
+        return {
+            screenSize: {width: window.screen.width, height: window.screen.height},
+            URL: null,
+            streamIns: null,        // 视频流
+            showContainer: true,   // 显示
+            tracker: null,
+            tipFlag: false,         // 提示用户已经检测到
+            flag: false,            // 判断是否已经拍照
+            context: null,          // canvas上下文
+            profile: [],            // 轮廓
+            removePhotoID: null,    // 停止转换图片
+            scanTip: '人脸识别中...',// 提示文字
+            imgUrl: ''              // base64格式图片
+        }
+    },
+    mounted() {
+        this.playVideo()
+    },
+    methods: {
+        // 访问用户媒体设备
+        getUserMedia(constrains, success, error) {
+            if (navigator.mediaDevices.getUserMedia) {
+                //最新标准API
+                navigator.mediaDevices.getUserMedia(constrains).then(success).catch(error);
+            } else if (navigator.webkitGetUserMedia) {
+                //webkit内核浏览器
+                navigator.webkitGetUserMedia(constrains).then(success).catch(error);
+            } else if (navigator.mozGetUserMedia) {
+                //Firefox浏览器
+                navagator.mozGetUserMedia(constrains).then(success).catch(error);
+            } else if (navigator.getUserMedia) {
+                //旧版API
+                navigator.getUserMedia(constrains).then(success).catch(error);
+            } else {
+                this.scanTip = "你的浏览器不支持访问用户媒体设备"
+            }
+        },
+        success(stream) {
+            this.streamIns = stream
+            // webkit内核浏览器
+            this.URL = window.URL || window.webkitURL
+            if ("srcObject" in this.$refs.refVideo) {
+                this.$refs.refVideo.srcObject = stream
+            } else {
+                this.$refs.refVideo.src = this.URL.createObjectURL(stream)
+            }
+            this.$refs.refVideo.onloadedmetadata = e => {
+                this.$refs.refVideo.play()
+                this.initTracker()
+            }
+        },
+        error(e) {
+            this.scanTip = "访问用户媒体失败" + e.name + "," + e.message
+        },
+        playVideo() {
+            this.getUserMedia({
+                video: {
+                    width: 800, height: 400, facingMode: "user"
+                }     /* 前置优先 */
+            }, this.success, this.error)
+        },
+        // 人脸捕捉
+        initTracker() {
+            this.context = this.$refs.refCanvas.getContext("2d")    // 画布
+            this.tracker = new tracking.ObjectTracker(['face'])     // tracker实例
+            this.tracker.setStepSize(1.7)
+            this.tracker.setInitialScale(4);
+            this.tracker.setEdgesDensity(0.1);// 设置步长
+            this.tracker.on('track', this.handleTracked)            // 绑定监听方法
+            try {
+                tracking.track('#video', this.tracker)      // 开始追踪
+            } catch (e) {
+                this.scanTip = "访问用户媒体失败，请重试"
+            }
+        },
+        // 追踪事件
+        handleTracked(e) {
+            if (e.data.length === 0) {
+                this.scanTip = '未检测到人脸'
+            } else {
+                if (!this.tipFlag) {
+                    this.scanTip = '检测成功，正在拍照，请保持不动2秒'
+                }
+                // 1秒后拍照，仅拍一次
+                if (!this.flag) {
+                    this.scanTip = '拍照中...'
+                    this.flag = true
+                    this.removePhotoID = setTimeout(() => {
+                            this.tackPhoto()
+                            this.tipFlag = true
+                        },
+                        2000
+                    )
+                }
+                e.data.forEach(this.plot)
+            }
+        },
+        // 绘制跟踪框
+        plot({x, y, width: w, height: h}) {
+            // 创建框对象
+            this.profile.push({width: w, height: h, left: x, top: y})
+        },
+        // 拍照
+        tackPhoto() {
+            this.context.drawImage(this.$refs.refVideo, 0, 0, 450, 100)
+            // 保存为base64格式
+            this.imgUrl = this.saveAsPNG(this.$refs.refCanvas)
+
+            var formData = new FormData();
+            formData.append("file", this.imgUrl);
+            axios({
+                method: 'post',
+                url: '/faceDiscern',
+                data: formData,
+            }).then(function (response) {
+                console.log(response);
+            }).catch(function (error) {
+                console.log(error);
+            });
+            this.close()
+        },
+        // Base64转文件
+        getBlobBydataURI(dataURI, type) {
+            var binary = window.atob(dataURI.split(',')[1]);
+            var array = [];
+            for (var i = 0; i < binary.length; i++) {
+                array.push(binary.charCodeAt(i));
+            }
+            return new Blob([new Uint8Array(array)], {
+                type: type
+            });
+        },
+        compare(url) {
+            let blob = this.getBlobBydataURI(url, 'image/png')
+            let formData = new FormData()
+            formData.append("file", blob, "file_" + Date.parse(new Date()) + ".png")
+        },
+        // 保存为png,base64格式图片
+        saveAsPNG(c) {
+            return c.toDataURL('image/png', 0.3)
+        },
+        // 关闭并清理资源
+        close() {
+            this.flag = false
+            this.tipFlag = false
+            this.showFailPop = false
+            this.showContainer = false
+            this.tracker && this.tracker.removeListener('track', this.handleTracked)
+            this.tracker = null
+            this.context = null
+            this.profile = []
+            this.scanTip = '人脸识别中...'
+            clearTimeout(this.removePhotoID)
+            if (this.streamIns) {
+                this.streamIns.enabled = false
+                this.streamIns.getTracks()[0].stop()
+                this.streamIns.getVideoTracks()[0].stop()
+            }
+            this.streamIns = null
+        }
+    }
+})
+</script>
+</html>

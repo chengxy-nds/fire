@@ -1,13 +1,13 @@
-package fire;
+package com.fire;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FireCommonApplication {
+public class FireControllerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FireCommonApplication.class, args);
+		SpringApplication.run(FireControllerApplication.class, args);
 	}
 
 }

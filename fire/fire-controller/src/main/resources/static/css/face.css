@@ -1,0 +1,121 @@
+/*.face-capture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-capture video, .face-capture canvas {
+    !*position: fixed;*!
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.face-capture canvas {
+    z-index: 2;
+}
+
+.face-capture .img-cover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.face-capture .rect {
+    border: 2px solid #0aeb08;
+    position: fixed;
+    z-index: 3;
+}
+
+.face-capture .control-container {
+    margin-top: 10rem;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.face-capture .title {
+    text-align: center;
+    color: white;
+    margin: 1.6rem auto;
+    font-size: 18px;
+}
+
+.face-capture .close {
+    width: 0.8rem;
+    height: 0.8rem;
+}*/
+
+.body-bg {
+    background: url("../image/login_bg.png");
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.filmvideo {
+    margin: 200px auto;
+    width: 800px;
+    height: 400px;
+    display: block;
+    clear: both;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin: -50px auto;
+    font-size: 18px;
+}
+
+.close {
+    width: 0.8rem;
+    height: 0.8rem;
+    text-align: center;
+    margin: -50px auto;
+}
+
+.rect {
+    border: 2px solid #0aeb08;
+    position: fixed;
+    z-index: 3;
+}
+
+.imgpre{
+    margin: 15px auto;
+    width: 800px;
+    height: 600px;
+    display: block;
+    clear: both;
+}
