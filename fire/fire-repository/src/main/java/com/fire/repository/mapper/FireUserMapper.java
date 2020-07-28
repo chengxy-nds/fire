@@ -4,7 +4,6 @@ import com.fire.repository.model.FireUser;
 import java.util.List;
 
 public interface FireUserMapper {
-
     int deleteByPrimaryKey(Integer userId);
 
     int insert(FireUser record);
@@ -13,5 +12,8 @@ public interface FireUserMapper {
 
     List<FireUser> selectAll();
 
+    FireUser selectByFaceToken(String faceToken);
+
     int updateByPrimaryKey(FireUser record);
+
 }

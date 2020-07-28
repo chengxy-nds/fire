@@ -1,7 +1,9 @@
 package com.fire.service.service;
 
+import com.fire.common.domain.BaiDuFaceAddResult;
 import com.fire.common.domain.BaiDuFaceDetectResult;
 import com.fire.common.domain.BaiDuFaceSearchResult;
+import com.fire.common.domain.UserFaceInfo;
 
 /**
  * @Author: xinzhifu
@@ -38,5 +40,5 @@ public interface BaiDuFaceApiService {
      * @description 增加人脸图像到百度
      * @date 2020/7/27 11:13
      */
-    String addFace(String file);
+    BaiDuFaceAddResult addFace(String file, UserFaceInfo userFaceInfo);
 }

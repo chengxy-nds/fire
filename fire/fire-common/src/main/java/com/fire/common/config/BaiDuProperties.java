@@ -2,7 +2,7 @@ package com.fire.common.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 /**
  * @author xinzhifu
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @date    2020/7/27 15:06
  */
 @Data
-@Configuration
+@Component
 @ConfigurationProperties(prefix = "baidu")
 public class BaiDuProperties {
 

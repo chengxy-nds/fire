@@ -12,7 +12,7 @@
             <property name="suppressDate" value="true"/>
         </commentGenerator>
 
-        <jdbcConnection userId="root" password="xiaofu521" driverClass="com.mysql.jdbc.Driver"
+        <jdbcConnection userId="root" password="xinzhifu521" driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://47.93.6.5:3306/fire"/>
 
         <javaTypeResolver>

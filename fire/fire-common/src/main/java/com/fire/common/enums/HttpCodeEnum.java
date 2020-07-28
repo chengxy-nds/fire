@@ -8,6 +8,7 @@ package com.fire.common.enums;
 public enum HttpCodeEnum {
 
     SUCCESS(200, "SUCCESS"),
+    NOT_FOUND_FACE(9999, "未检测到人脸"),
     UNKNOWN(1, "未知错误");
 
     private Integer code;

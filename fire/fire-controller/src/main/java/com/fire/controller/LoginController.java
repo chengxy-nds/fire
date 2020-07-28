@@ -3,7 +3,11 @@ package com.fire.controller;
 import com.alibaba.fastjson.JSON;
 import com.fire.common.base.Resp;
 import com.fire.common.config.GitHubProperties;
+import com.fire.common.domain.BaiDuFaceAddResult;
 import com.fire.common.domain.BaiDuFaceDetectResult;
+import com.fire.common.domain.BaiDuFaceSearchResult;
+import com.fire.common.domain.UserFaceInfo;
+import com.fire.common.enums.HttpCodeEnum;
 import com.fire.common.pojo.UserInfo;
 import com.fire.common.util.OkHttpClientUtil;
 import com.fire.repository.mapper.FireUserMapper;
@@ -61,12 +65,45 @@ public class LoginController {
     @ResponseBody
     public Resp faceSearch(@RequestParam("file") String file) throws Exception {
 
-        BaiDuFaceDetectResult baiDuFaceDetectResult = baiDuFaceApiService.faceDetect(file);
-        FireUser fireUser = new FireUser();
-        fireUser.setUserName("11");
-        fireUserMapper.insert(fireUser);
+        String tip = "";
 
-        return Resp.ok(baiDuFaceDetectResult);
+        BaiDuFaceDetectResult faceDetect = baiDuFaceApiService.faceDetect(file);
+
+        /**
+         * 检测是否识别到人脸
+         */
+        if (faceDetect.getError_code() != 0) {
+            return Resp.error(HttpCodeEnum.NOT_FOUND_FACE.getCode(), HttpCodeEnum.NOT_FOUND_FACE.getDescription());
+        }
+
+        /**
+         * 搜索百度人脸库是否存在,不存在则注册人脸
+         * Face_token 为人脸图像的唯一识别表标识
+         */
+        BaiDuFaceSearchResult faceSearch = baiDuFaceApiService.faceSearch(file);
+
+        if (faceSearch.getError_code() == 0) {
+            FireUser fireUsers = fireUserMapper.selectByFaceToken(faceSearch.getResult().getFace_token());
+            tip = "用户已存在";
+        } else {
+
+            /**
+             * 注册新用户
+             */
+            FireUser fireUser = new FireUser();
+            int userId = fireUserMapper.insert(fireUser);
+            UserFaceInfo userFaceInfo = new UserFaceInfo();
+            userFaceInfo.setUserId(userId);
+
+            BaiDuFaceAddResult addResult = baiDuFaceApiService.addFace(file, userFaceInfo);
+            if (addResult.getError_code() == 0
+                    && addResult.getError_msg().equals(HttpCodeEnum.SUCCESS.getDescription())) {
+                fireUser.setFaceToken(addResult.getResult().getFace_token());
+                fireUserMapper.updateByPrimaryKey(fireUser);
+            }
+            tip = "新用户注册";
+        }
+        return Resp.ok(tip);
     }
 
     /**

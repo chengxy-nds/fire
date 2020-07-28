@@ -4,27 +4,37 @@
   <resultMap id="BaseResultMap" type="com.fire.repository.model.FireUser">
     <id column="user_id" jdbcType="INTEGER" property="userId" />
     <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="face_token" jdbcType="VARCHAR" property="faceToken" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from fire_user
     where user_id = #{userId,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.fire.repository.model.FireUser">
-    insert into fire_user (user_id, user_name)
-    values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR})
+  <insert id="insert" useGeneratedKeys="true" keyColumn="user_id" keyProperty="userId" parameterType="com.fire.repository.model.FireUser">
+    insert into fire_user (user_id, user_name, face_token
+      )
+    values (#{userId,jdbcType=INTEGER}, #{userName,jdbcType=VARCHAR}, #{faceToken,jdbcType=VARCHAR}
+      )
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.fire.repository.model.FireUser">
     update fire_user
-    set user_name = #{userName,jdbcType=VARCHAR}
+    set user_name = #{userName,jdbcType=VARCHAR},
+      face_token = #{faceToken,jdbcType=VARCHAR}
     where user_id = #{userId,jdbcType=INTEGER}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select user_id, user_name
+    select user_id, user_name, face_token
     from fire_user
     where user_id = #{userId,jdbcType=INTEGER}
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
-    select user_id, user_name
+    select user_id, user_name, face_token
     from fire_user
+  </select>
+
+  <select id="selectByFaceToken" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select *
+    from fire_user
+    where face_token = #{faceToken,jdbcType=VARCHAR}
   </select>
 </mapper>

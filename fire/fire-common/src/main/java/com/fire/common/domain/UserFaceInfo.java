@@ -8,15 +8,11 @@ import java.util.Date;
 @Data
 public class UserFaceInfo {
 
-    private Integer id;
+    private Integer userId;
 
-    private Integer groupId;
+    private String faceToken;
 
-    private String faceId;
-
-    private String name;
-
-    private Integer age;
+    private String userName;
 
     private String email;
 
@@ -27,9 +23,6 @@ public class UserFaceInfo {
     private Date createTime;
 
     private Date updateTime;
-
-    private byte[] faceFeature;
-
 
 }
 
