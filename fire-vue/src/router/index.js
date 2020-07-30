@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import login from '@/components/login'
 import home from '@/components/home'
 import welcome from '@/components/welcome'
+import face from '@/components/face'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/welcome',
       name: 'welcome',
       component: welcome
+    },
+    {
+      path: '/face',
+      name: 'face',
+      component: face
     }
   ]
 })

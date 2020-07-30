@@ -6,15 +6,15 @@ import router from './router'
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import tracking from 'tracking'
 
-Vue.use(VueAxios, axios)
-
+Vue.use(VueAxios, axios, tracking)
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+// eslint-disable-next-line no-new
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })
