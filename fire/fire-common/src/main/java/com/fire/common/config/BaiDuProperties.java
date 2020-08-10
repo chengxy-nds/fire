@@ -2,6 +2,7 @@ package com.fire.common.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @Data
 @Component
+@Configuration
 @ConfigurationProperties(prefix = "baidu")
 public class BaiDuProperties {
 
@@ -43,4 +45,5 @@ public class BaiDuProperties {
      * 添加人像 url
      */
     private String addfaceUrl;
+
 }
