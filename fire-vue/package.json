@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "ajv": "^6.12.3",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "face-api.js": "^0.22.2",
     "node-sass": "^4.14.1",
     "tracking": "^1.1.3",
